@@ -1,6 +1,6 @@
 # DESIGN.md — Identidad visual de la Cámara Empresaria de Tandil (CET)
 
-> **Para cualquier IA (Claude, ChatGPT, Gemini, etc.):** leé este archivo completo antes de crear cualquier pieza (informe, flyer, presentación, planilla, mail, post). Usá SOLO los colores, tipografías y logos definidos acá. Los logos están en la carpeta `logos/` de este mismo repositorio y la guía de cada institución aliada en `aliados/`. Si falta un dato (marcado como `COMPLETAR`), no lo inventes: avisá y preguntá.
+> **Para cualquier IA (Claude, ChatGPT, Gemini, etc.):** leé este archivo completo antes de crear cualquier pieza (informe, flyer, presentación, planilla, mail, post). Usá SOLO los colores, tipografías y logos definidos acá. Los logos de la Cámara están en `logos/cet/` y cada institución aliada tiene su propia carpeta en `aliados/<nombre>/` con su guía y sus logos. Si falta un dato (marcado como `COMPLETAR`), no lo inventes: avisá y preguntá.
 
 Última actualización: COMPLETAR (fecha)
 Responsable: Área de Comercio y Servicios — comercio@camaraempresaria.org.ar
@@ -60,15 +60,15 @@ Todos los archivos están en `logos/cet/`. Preferir siempre **SVG** (vectorial);
 
 ## 4. Instituciones aliadas
 
-Logos en `logos/aliados/`. **La guía completa de cada institución (colores, tipografía, reglas) está en `aliados/<nombre>.md`: leerla antes de usar su logo.** Cada institución tiene su propio manual de marca: respetar sus colores y proporciones y no modificarlos.
+Cada aliado tiene **una carpeta propia**, `aliados/<nombre>/`, con su guía (`guia.md`) y sus logos juntos. **Leer la guía antes de usar el logo.** Cada institución tiene su propio manual de marca: respetar sus colores y proporciones y no modificarlos.
 
-| Institución | Logo principal | Guía | Estado |
+| Institución | Carpeta | Logo principal | Estado |
 |---|---|---|---|
-| FCE — Facultad de Ciencias Económicas (UNICEN) | `logos/aliados/fce-unicen-horizontal-azul.png` (blanco: `fce-unicen-horizontal-blanco.png`) | `aliados/fce-unicen.md` | Completa según su Manual de Marca (falta versión vertical y negra) |
-| UNICEN — Universidad Nacional del Centro de la Provincia de Buenos Aires | `logos/aliados/unicen.png` | `aliados/unicen.md` (pendiente) | Solo logo; falta su manual de marca |
-| Municipio de Tandil | `logos/aliados/municipio-tandil.png` | pendiente | Pendiente |
-| CAME — Confederación Argentina de la Mediana Empresa | `logos/aliados/came.png` | pendiente | Pendiente |
-| FEBA — Federación Empresaria de la Provincia de Buenos Aires | `logos/aliados/feba.png` | pendiente | Pendiente |
+| FCE — Facultad de Ciencias Económicas (UNICEN) | `aliados/fce/` | `aliados/fce/fce-horizontal-azul.png` (blanco: `fce-horizontal-blanco.png`) | Completa según su Manual de Marca (falta versión vertical y negra) |
+| UNICEN — Universidad Nacional del Centro de la Provincia de Buenos Aires | `aliados/unicen/` | `aliados/unicen/unicen-logo.png` | Solo logo; falta su guía y manual de marca |
+| Municipio de Tandil | `aliados/municipio-tandil/` | pendiente | Pendiente |
+| CAME — Confederación Argentina de la Mediana Empresa | `aliados/came/` | pendiente | Pendiente |
+| FEBA — Federación Empresaria de la Provincia de Buenos Aires | `aliados/feba/` | pendiente | Pendiente |
 
 **Convención sugerida al combinar con aliados** (es una propuesta de la Cámara, a validar; los manuales de los aliados no la contradicen pero tampoco la definen)
 - El logo de la CET va primero (a la izquierda o arriba), salvo que la institución organizadora indique otro orden.
@@ -76,7 +76,7 @@ Logos en `logos/aliados/`. **La guía completa de cada institución (colores, ti
 - Usar una franja o fila de logos al pie de la pieza, sobre fondo blanco, con cada logo en su versión de color. Si el fondo es oscuro, versión blanca de todos.
 - No recolorear ningún logo aliado para que "combine" con la paleta de la Cámara.
 - Para acciones conjuntas (ej.: CET + Municipio), usar el orden acordado con la contraparte. COMPLETAR si hay convenio que lo defina.
-- Agregar un logo aliado nuevo: ver `README.md`.
+- Agregar un aliado nuevo: ver `README.md`.
 
 ## 5. Tono y estilo (opcional)
 
