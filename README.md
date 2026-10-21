@@ -81,7 +81,7 @@ La carpeta de Drive agrupa algunos logos en subcarpetas y deja otros sueltos; en
 | `banco de alimentos` | `aliados/banco-de-alimentos/` | `banco-de-alimentos-color.png`, `banco-de-alimentos-blanco.png` |
 | (suelto) | `aliados/unicen/` | `unicen-logo.png` |
 | (suelto) | `aliados/feba/` | `feba-logo.png` |
-| (suelto) | `aliados/acuerdo-del-bicentenario/` | `acuerdo-del-bicentenario-logo.jpg` |
+| (suelto) | `aliados/acuerdo-del-bicentenario/` | `acuerdo-del-bicentenario.jpg` |
 | (suelto) | `aliados/banco-provincia/` | `banco-provincia-logo.jpg` |
 | (suelto) | `aliados/cagnoli/` | `cagnoli-fondo-oscuro.png` (en Drive: `cagnoli-logo.png`) |
 | (suelto) | `aliados/cuenta-dni/` | `cuenta-dni-logo.png` |

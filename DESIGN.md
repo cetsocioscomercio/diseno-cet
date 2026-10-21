@@ -79,7 +79,7 @@ Cada una tiene **una carpeta propia**, `aliados/<nombre>/`, con sus logos (y su 
 | Clúster Tecnológico de Tandil | `aliados/cluster-tecnologico-tandil/` | `cluster-tecnologico-tandil-negro.png` (fondo claro) | Blanco (fondo oscuro): `cluster-tecnologico-tandil-blanco.png`. Baja resolución (300 px): solo pantalla | Logos por subir; falta guía |
 | Multisectorial Tandil | `aliados/multisectorial-tandil/` | `multisectorial-tandil-logo.jpg` | JPG con fondo blanco, baja resolución | Logo por subir; falta guía |
 | Sociedad Rural de Tandil | `aliados/sociedad-rural/` | `sociedad-rural-logo.jpg` | JPG con fondo blanco | Logo por subir; falta guía |
-| Acuerdo del Bicentenario | `aliados/acuerdo-del-bicentenario/` | `acuerdo-del-bicentenario-logo.jpg` | JPG con fondo blanco | Logo por subir; falta guía |
+| Acuerdo del Bicentenario | `aliados/acuerdo-del-bicentenario/` | `acuerdo-del-bicentenario.jpg` | JPG con fondo blanco | Logo subido; falta guía |
 | Banco de Alimentos Tandil (BAT) | `aliados/banco-de-alimentos/` | `banco-de-alimentos-color.png` (fondo blanco) | Blanco (fondo oscuro, transparente): `banco-de-alimentos-blanco.png` | Logos por subir; falta guía |
 | Expotan | `aliados/expotan/` | `expotan-logo.png` | Logo con fondo azul propio, baja resolución | Logo por subir; falta guía |
 | Enfoque de Negocios | `aliados/enfoque-de-negocios/` | `enfoque-de-negocios-logo.jpg` | Versión "10 años", JPG con fondo blanco | Logo por subir; falta guía |
