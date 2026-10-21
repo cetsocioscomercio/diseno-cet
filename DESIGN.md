@@ -1,6 +1,6 @@
 # DESIGN.md — Identidad visual de la Cámara Empresaria de Tandil (CET)
 
-> **Para cualquier IA (Claude, ChatGPT, Gemini, etc.):** leé este archivo completo antes de crear cualquier pieza (informe, flyer, presentación, planilla, mail, post). Usá SOLO los colores, tipografías y logos definidos acá. Los logos de la Cámara están en `logos/cet/` y cada institución aliada tiene su propia carpeta en `aliados/<nombre>/` con su guía y sus logos. Si falta un dato (marcado como `COMPLETAR`), no lo inventes: avisá y preguntá. Si un archivo de logo listado acá no existe todavía en la carpeta, avisá en lugar de inventar uno.
+> **Para cualquier IA (Claude, ChatGPT, Gemini, etc.):** leé este archivo completo antes de crear cualquier pieza (informe, flyer, presentación, planilla, mail, post). Usá SOLO los colores, tipografías y logos definidos acá. Los logos de la Cámara están en `logos/cet/` y cada institución aliada tiene su propia carpeta en `aliados/<nombre>/` con sus logos (y su guía, cuando existe). Si falta un dato (marcado como `COMPLETAR`), no lo inventes: avisá y preguntá. Si un archivo de logo listado acá no existe todavía en la carpeta, avisá en lugar de inventar uno.
 
 Última actualización: 21/10/2026 (estructura de carpetas y nombres de logos). Paleta y tipografías: pendientes de completar.
 Responsable: Área de Comercio y Servicios — comercio@camaraempresaria.org.ar
@@ -9,12 +9,12 @@ Responsable: Área de Comercio y Servicios — comercio@camaraempresaria.org.ar
 
 ## 1. Paleta de colores
 
-> Cargar los valores exactos tomados del logo (se puede usar un cuentagotas en Canva o https://imagecolorpicker.com).
+> Cargar los valores exactos tomados del logo (se puede usar un cuentagotas en Canva o https://imagecolorpicker.com). El logo usa un azul oscuro (casi marino) y un verde: tomar ambos de `logos/cet/cet-horizontal-color.png`.
 
 | Rol | Nombre | HEX | RGB | Uso |
 |---|---|---|---|---|
-| Principal | COMPLETAR | `#______` | COMPLETAR | Títulos, encabezados, botones, elementos de marca |
-| Secundario | COMPLETAR | `#______` | COMPLETAR | Subtítulos, detalles, íconos |
+| Principal | COMPLETAR (azul oscuro del logo) | `#______` | COMPLETAR | Títulos, encabezados, botones, elementos de marca |
+| Secundario | COMPLETAR (verde del logo) | `#______` | COMPLETAR | Subtítulos, detalles, íconos |
 | Acento | COMPLETAR | `#______` | COMPLETAR | Destacados, llamados a la acción (usar poco) |
 | Fondo claro | COMPLETAR | `#______` | COMPLETAR | Fondos de página, tablas |
 | Texto | COMPLETAR | `#______` | COMPLETAR | Texto de párrafo |
@@ -38,16 +38,17 @@ Tamaños sugeridos para documentos: título 20 pt · subtítulo 14 pt · texto 1
 
 ## 3. Logos de la Cámara
 
-Todos los archivos están en `logos/cet/`. Preferir siempre **SVG** (vectorial); si no hay, usar PNG con fondo transparente.
+Todos los archivos están en `logos/cet/`. Preferir siempre **SVG** (vectorial); si no hay, usar PNG con fondo transparente. Todos los PNG de esta tabla tienen fondo transparente.
 
 | Variante | Archivo | Cuándo usarla |
 |---|---|---|
 | Horizontal, color (principal) | `logos/cet/cet-horizontal-color.png` | Uso general, encabezados de documentos, fondo claro |
 | Horizontal, blanco | `logos/cet/cet-horizontal-blanco.png` | Sobre fondos de color o fotos oscuras |
-| Horizontal, monocromo (un solo color) | `logos/cet/cet-horizontal-monocromo.png` | Impresiones en un color, sellos, fondos claros sin color |
+| Horizontal, negro (un solo color) | `logos/cet/cet-horizontal-negro.png` | Impresiones en blanco y negro, sellos, fondos claros sin color |
 | Vertical, color | `logos/cet/cet-vertical-color.png` (PDF: `cet-vertical-color.pdf`) | Espacios cuadrados, portadas, redes |
 | Vertical, blanco | `logos/cet/cet-vertical-blanco.png` | Espacios cuadrados sobre fondo oscuro o de color |
-| Vertical, monocromo | `logos/cet/cet-vertical-monocromo.png` | Impresiones en un color en formato vertical |
+| Vertical, negro | `logos/cet/cet-vertical-negro.png` | Impresiones en blanco y negro en formato vertical |
+| Sello "Socio 2000 CET" | `logos/cet/cet-socio-2000.png` | Solo para la campaña / reconocimiento Socio 2000 (no reemplaza al logo de la Cámara) |
 | Solo isotipo / símbolo | `logos/cet/cet-isotipo.png` | Avatares, íconos, sellos, espacios pequeños (pendiente de subir) |
 | Sello certificación DNV | `logos/cet/sello-dnv.png` | Solo en piezas donde corresponda mencionar la certificación (pendiente de subir) |
 
@@ -60,23 +61,37 @@ Todos los archivos están en `logos/cet/`. Preferir siempre **SVG** (vectorial);
 - Sobre fondo oscuro o fotos: usar la versión blanca.
 - Sobre fondo claro: usar la versión color.
 
-## 4. Instituciones aliadas
+## 4. Instituciones aliadas y marcas con las que trabaja la Cámara
 
-Cada aliado tiene **una carpeta propia**, `aliados/<nombre>/`, con su guía (`guia.md`) y sus logos juntos. **Leer la guía antes de usar el logo.** Cada institución tiene su propio manual de marca: respetar sus colores y proporciones y no modificarlos.
+Cada una tiene **una carpeta propia**, `aliados/<nombre>/`, con sus logos (y su `guia.md` cuando existe). **Leer la guía antes de usar el logo, si la hay.** Cada institución tiene su propio manual de marca: respetar sus colores y proporciones y no modificarlos.
 
-| Institución | Carpeta | Logo principal (nombre esperado) | Estado |
-|---|---|---|---|
-| FCE — Facultad de Ciencias Económicas (UNICEN) | `aliados/fce/` | `aliados/fce/fce-horizontal-azul.png` (blanco: `fce-horizontal-blanco.png`) | Guía completa según su Manual de Marca (falta versión vertical y negra) |
-| UNICEN — Universidad Nacional del Centro de la Provincia de Buenos Aires | `aliados/unicen/` | `aliados/unicen/unicen-logo.png` | Carpeta lista, logo por subir; falta su guía y manual de marca |
-| Municipio de Tandil | `aliados/municipio-tandil/` | `aliados/municipio-tandil/municipio-tandil-color.png` (blanco: `municipio-tandil-blanco.gif`) | Carpeta lista, logos por subir; falta guía |
-| CAME — Confederación Argentina de la Mediana Empresa | `aliados/came/` | `aliados/came/came-logo.png` | Carpeta lista, logo por subir; falta guía |
-| FEBA — Federación Empresaria de la Provincia de Buenos Aires | `aliados/feba/` | `aliados/feba/feba-logo.png` (fuente vectorial: `feba-logo.ai`) | Carpeta lista, logo por subir; falta guía |
-| APYMET — Asociación de la Pequeña y Mediana Empresa de Tandil | `aliados/apymet/` | `aliados/apymet/apymet-sello-color.jpg` (versión para fondo oscuro: `apymet-sello-azul.png`) | Carpeta lista, logos por subir; falta guía |
+| Institución | Carpeta | Logo principal | Otras versiones / notas | Estado |
+|---|---|---|---|---|
+| FCE — Facultad de Ciencias Económicas (UNICEN) | `aliados/fce/` | `fce-horizontal-azul.png` | Blanco: `fce-horizontal-blanco.png` | Guía completa según su Manual de Marca (falta versión vertical y negra) |
+| UNICEN — Universidad Nacional del Centro de la Provincia de Buenos Aires | `aliados/unicen/` | `unicen-logo.png` | | Logo por subir; falta guía y manual de marca |
+| Municipio de Tandil | `aliados/municipio-tandil/` | `municipio-tandil-color.png` | Blanco (para fondos oscuros): `municipio-tandil-blanco.gif` | Logos por subir; falta guía |
+| CAME — Confederación Argentina de la Mediana Empresa | `aliados/came/` | `came-logo.png` | | Logo por subir; falta guía |
+| CACS — Cámara Argentina de Comercio y Servicios | `aliados/cacs/` | `cacs-logo.jpg` | JPG con fondo blanco | Logo por subir; falta guía |
+| FEBA — Federación Empresaria de la Provincia de Buenos Aires | `aliados/feba/` | `feba-logo.png` | Fuente vectorial (`feba-logo.ai`) pendiente | Logo por subir; falta guía |
+| APYMET — Asociación de la Pequeña y Mediana Empresa de Tandil | `aliados/apymet/` | COMPLETAR (definir cuál es el oficial) | `apymet-sello-azul.png` (sello azul, con fondo azul) · `apymet-sello-color.jpg` (sello en negro y rojo sobre fondo blanco) | Logos por subir; falta guía |
+| Clúster Tecnológico de Tandil | `aliados/cluster-tecnologico-tandil/` | `cluster-tecnologico-tandil-negro.png` (fondo claro) | Blanco (fondo oscuro): `cluster-tecnologico-tandil-blanco.png`. Baja resolución (300 px): solo pantalla | Logos por subir; falta guía |
+| Multisectorial Tandil | `aliados/multisectorial-tandil/` | `multisectorial-tandil-logo.jpg` | JPG con fondo blanco, baja resolución | Logo por subir; falta guía |
+| Sociedad Rural de Tandil | `aliados/sociedad-rural/` | `sociedad-rural-logo.jpg` | JPG con fondo blanco | Logo por subir; falta guía |
+| Acuerdo del Bicentenario | `aliados/acuerdo-del-bicentenario/` | `acuerdo-del-bicentenario-logo.jpg` | JPG con fondo blanco | Logo por subir; falta guía |
+| Banco de Alimentos Tandil (BAT) | `aliados/banco-de-alimentos/` | `banco-de-alimentos-color.png` (fondo blanco) | Blanco (fondo oscuro, transparente): `banco-de-alimentos-blanco.png` | Logos por subir; falta guía |
+| Expotan | `aliados/expotan/` | `expotan-logo.png` | Logo con fondo azul propio, baja resolución | Logo por subir; falta guía |
+| Enfoque de Negocios | `aliados/enfoque-de-negocios/` | `enfoque-de-negocios-logo.jpg` | Versión "10 años", JPG con fondo blanco | Logo por subir; falta guía |
+| Banco Provincia | `aliados/banco-provincia/` | `banco-provincia-logo.jpg` | Baja resolución (225 px): solo pantalla | Logo por subir; falta guía |
+| Cuenta DNI | `aliados/cuenta-dni/` | `cuenta-dni-logo.png` | Baja resolución (322 px): solo pantalla | Logo por subir; falta guía |
+| Federada Cobertura Médica | `aliados/federada/` | `federada-logo.png` | | Logo por subir; falta guía |
+| Cagnoli (Genuino de Tandil) | `aliados/cagnoli/` | `cagnoli-fondo-oscuro.png` | Versión con letras blancas: **solo se ve sobre fondo oscuro**. Falta la versión para fondo claro (`cagnoli-color.png`) | Logo por subir; falta guía |
+| Petrotandil | `aliados/petrotandil/` | `petrotandil-logo.png` | | Logo por subir; falta guía |
+| Usina Tandil | `aliados/usina-tandil/` | `usina-tandil-logo.png` | Baja resolución (310 px): solo pantalla | Logo por subir; falta guía |
 
 **Convención sugerida al combinar con aliados** (es una propuesta de la Cámara, a validar; los manuales de los aliados no la contradicen pero tampoco la definen)
 - El logo de la CET va primero (a la izquierda o arriba), salvo que la institución organizadora indique otro orden.
 - Todos los logos del conjunto con la misma altura visual, separados por espacio parejo, cada uno respetando su área de resguardo y tamaño mínimo.
-- Usar una franja o fila de logos al pie de la pieza, sobre fondo blanco, con cada logo en su versión de color. Si el fondo es oscuro, versión blanca de todos.
+- Usar una franja o fila de logos al pie de la pieza, sobre fondo blanco, con cada logo en su versión de color. Si el fondo es oscuro, versión blanca de todos (cuando el aliado la tenga).
 - No recolorear ningún logo aliado para que "combine" con la paleta de la Cámara.
 - Para acciones conjuntas (ej.: CET + Municipio), usar el orden acordado con la contraparte. COMPLETAR si hay convenio que lo defina.
 - Agregar un aliado nuevo: ver `README.md`.
