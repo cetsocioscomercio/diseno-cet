@@ -4,9 +4,9 @@ Este repositorio guarda la **paleta de colores, tipografías y logos** de la CET
 
 ## Cómo usarlo con una IA
 
-1. Copiá el link de este repositorio.
+1. Copiá el link de este repositorio: https://github.com/cetsocioscomercio/diseno-cet
 2. Pegalo en tu pedido: *"Leé el DESIGN.md de este repo y armá un flyer para…"*
-3. Si la IA no puede abrir links (el repo es privado), descargá el repo con **Code → Download ZIP** y adjuntá el `DESIGN.md` y los logos que necesites.
+3. Si la IA no puede abrir links, descargá el repo con **Code → Download ZIP** y adjuntá el `DESIGN.md` y los logos que necesites.
 
 ## Qué hay adentro
 
@@ -38,14 +38,12 @@ aliados/                       ← una carpeta por institución, siempre con el 
   usina-tandil/                ← Usina Tandil
 ```
 
-Las carpetas ya están creadas: solo hay que subir los logos con el nombre que figura abajo.
+Las carpetas y los logos ya están cargados. Las tablas de abajo sirven para saber cómo se llama cada archivo, reponer uno o reemplazarlo por una versión mejor.
 
-## Cómo subir logos (sin saber programar)
-
-Los logos ya vienen renombrados en la carpeta de Drive. Para subirlos:
+## Cómo subir o reemplazar un logo (sin saber programar)
 
 1. Entrá al repositorio en GitHub y abrí la carpeta que corresponde (tabla de abajo).
-2. Tocá **Add file → Upload files** y arrastrá el archivo (se pueden arrastrar varios juntos, o carpetas enteras: GitHub respeta la estructura).
+2. Tocá **Add file → Upload files** y arrastrá el archivo (se pueden arrastrar varios juntos, o carpetas enteras: GitHub respeta la estructura). Si subís un archivo con el mismo nombre que otro que ya está, lo reemplaza.
 3. **Antes de subirlo, controlá el nombre**: minúscula, con guiones, sin espacios, sin paréntesis y sin tildes.
 4. Abajo, en **Commit changes**, escribí un mensaje corto (ej.: "Agrego logo de CAME") y confirmá.
 5. Si es un logo nuevo que no está en la tabla de `DESIGN.md`, sumá una fila (botón del lápiz → editar → **Commit changes**).
@@ -92,7 +90,7 @@ La carpeta de Drive agrupa algunos logos en subcarpetas y deja otros sueltos; en
 | (suelto) | `aliados/sociedad-rural/` | `sociedad-rural-logo.jpg` |
 | (suelto) | `aliados/usina-tandil/` | `usina-tandil-logo.png` |
 
-Los logos de la FCE ya tienen su carpeta y su guía en `aliados/fce/`.
+Los logos de la FCE están en `aliados/fce/`, junto con su guía.
 
 **Regla de nombres:** `institución-variante-color.extensión`. Sin números de versión (GitHub guarda el historial). Si hay un SVG o un PNG con fondo transparente, usar ese antes que un JPG. Extensión siempre `.jpg` (no `.jpeg`).
 
