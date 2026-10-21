@@ -72,7 +72,7 @@ La carpeta de Drive agrupa algunos logos en subcarpetas y deja otros sueltos; en
 
 | Carpeta en Drive | Carpeta en el repo | Archivos |
 |---|---|---|
-| `APYMET` | `aliados/apymet/` | `apymet-sello-azul.png`, `apymet-sello-color.jpg` |
+| `APYMET` | `aliados/apymet/` | `apymet-sello-azul.png`, `apymet-sello-negro.jpg` |
 | `CAME` | `aliados/came/` | `came-logo.png` |
 | `CACS` | `aliados/cacs/` | `cacs-logo.jpg` (en Drive: `camara-argentina-de-comercio-y-servicios.jpg`) |
 | `CLUSTER TECNOLOGICO DE TANDIL` | `aliados/cluster-tecnologico-tandil/` | `cluster-tecnologico-tandil-blanco.png`, `cluster-tecnologico-tandil-negro.png` |
