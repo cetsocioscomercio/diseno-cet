@@ -8,20 +8,20 @@
 
 | Archivo | Qué es | Medidas | Fondo | Usar para |
 |---|---|---|---|---|
-| `usina-tandil-logo.png` | Una "u" verde a la izquierda y las palabras "usina" (en negro grisaceo, en minúsculas) y "TANDIL" debajo | 310 × 150 px | Transparente | Fondo blanco o claro |
+| `usina-tandil-logo.png` | Una "u" verde a la izquierda y las palabras "usina" (en minúsculas, gris muy oscuro) y "TANDIL" debajo | 310 × 150 px | Transparente | Fondo blanco o claro |
 
 ## Colores medidos en el logo
 
 | Color | HEX aprox. | Dónde |
 |---|---|---|
 | Verde | `#21A740` | La "u" |
-| Negro grisaceo | `#1B1918` | "usina" y "TANDIL" |
+| Gris muy oscuro | `#1B1918` | "usina" y "TANDIL" |
 
 ## Notas de uso
 
 - Logo **bicolor**: no recolorear.
 - Resolución baja (310 px): solo pantalla y tamaños pequeños.
-- Sobre fondo oscuro el texto negro se pierde: usarlo sobre blanco o claro.
+- Sobre fondo oscuro el texto oscuro se pierde: usarlo sobre blanco o claro.
 
 ## Datos no disponibles
 

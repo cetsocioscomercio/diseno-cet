@@ -1,8 +1,8 @@
 # DESIGN.md — Identidad visual de la Cámara Empresaria de Tandil (CET)
 
-> **Para cualquier IA (Claude, ChatGPT, Gemini, etc.):** leé este archivo completo antes de crear cualquier pieza (informe, flyer, presentación, planilla, mail, post). Usá SOLO los colores, tipografías y logos definidos acá. Los logos de la Cámara están en `logos/cet/` y cada institución aliada tiene su propia carpeta en `aliados/<nombre>/` con sus logos (y su guía, cuando existe). Si falta un dato (marcado como `COMPLETAR`), no lo inventes: avisá y preguntá. Si un archivo de logo listado acá no existe todavía en la carpeta, avisá en lugar de inventar uno.
+> **Para cualquier IA (Claude, ChatGPT, Gemini, etc.):** leé este archivo completo antes de crear cualquier pieza (informe, flyer, presentación, planilla, mail, post). Usá SOLO los colores, tipografías y logos definidos acá. Los logos de la Cámara están en `logos/cet/` y cada institución aliada tiene su propia carpeta en `aliados/<nombre>/` con sus logos y su `guia.md`. Si falta un dato (marcado como `COMPLETAR`), no lo inventes: avisá y preguntá. Si un archivo de logo listado acá no existe todavía en la carpeta, avisá en lugar de inventar uno.
 
-Última actualización: 21/10/2026 (paleta tomada del logo, logos cargados y nombres definitivos). Tipografías de piezas gráficas: pendientes de completar.
+Última actualización: 21/10/2026 (paleta tomada del logo, logos cargados, fichas descriptivas de cada aliado). Tipografías de piezas gráficas: pendientes de completar.
 Responsable: Área de Comercio y Servicios — comercio@camaraempresaria.org.ar
 
 ---
@@ -65,30 +65,34 @@ Todos los archivos están en `logos/cet/`. Preferir siempre **SVG** (vectorial);
 
 ## 4. Instituciones aliadas y marcas con las que trabaja la Cámara
 
-Cada una tiene **una carpeta propia**, `aliados/<nombre>/`, con sus logos (y su `guia.md` cuando existe). **Leer la guía antes de usar el logo, si la hay.** Cada institución tiene su propio manual de marca: respetar sus colores y proporciones y no modificarlos.
+Cada una tiene **una carpeta propia**, `aliados/<nombre>/`, con sus logos y su `guia.md`. **Leer la guía antes de usar el logo.**
+
+**Importante — hay dos tipos de guía:**
+- **Oficial:** solo la de la **FCE** (sale de su Manual de Marca). Sus reglas se respetan sin excepción.
+- **Descriptiva (no oficial):** todas las demás. Describen los archivos de logo que tiene la Cámara (qué versión es cada uno, medidas, fondo, colores medidos sobre el archivo). **No son el manual de marca de la institución**: no definen área de resguardo, tamaño mínimo ni usos incorrectos. Mientras no haya manual, usar solo las reglas generales: no deformar, no recolorear, no agregar sombras ni efectos.
 
 | Institución | Carpeta | Logo principal | Otras versiones / notas | Estado |
 |---|---|---|---|---|
-| FCE — Facultad de Ciencias Económicas (UNICEN) | `aliados/fce/` | `fce-horizontal-azul.png` | Blanco: `fce-horizontal-blanco.png`. También: `fce-isotipo-azul.png` / `fce-isotipo-blanco.png`, y las piezas `fce-futuro-*`, `fce-invita-*`, `fce-transforma-*` (color y blanco) | Logos subidos; guía completa según su Manual de Marca (falta versión vertical y negra) |
-| UNICEN — Universidad Nacional del Centro de la Provincia de Buenos Aires | `aliados/unicen/` | `unicen-logo.png` | | Logo subido; falta guía y manual de marca |
-| Municipio de Tandil | `aliados/municipio-tandil/` | `municipio-tandil-color.png` | Blanco (para fondos oscuros): `municipio-tandil-blanco.gif` | Logos subidos; falta guía |
-| CAME — Confederación Argentina de la Mediana Empresa | `aliados/came/` | `came-logo.png` | | Logo subido; falta guía |
-| CACS — Cámara Argentina de Comercio y Servicios | `aliados/cacs/` | `cacs-logo.jpg` | JPG con fondo blanco | Logo subido; falta guía |
-| FEBA — Federación Empresaria de la Provincia de Buenos Aires | `aliados/feba/` | `feba-logo.png` | El PNG tiene mucho espacio vacío alrededor del logo (conviene recortarlo). Fuente vectorial (`feba-logo.ai`) pendiente | Logo subido; falta guía |
-| APYMET — Asociación de la Pequeña y Mediana Empresa de Tandil | `aliados/apymet/` | `apymet-sello-azul.png` (sello azul, con fondo azul) | `apymet-sello-negro.jpg` (sello en negro sobre fondo blanco) | Logos subidos; falta guía |
-| Clúster Tecnológico de Tandil | `aliados/cluster-tecnologico-tandil/` | `cluster-tecnologico-tandil-negro.png` (fondo claro) | Blanco (fondo oscuro): `cluster-tecnologico-tandil-blanco.png`. Baja resolución (300 px): solo pantalla | Logos subidos; falta guía |
-| Multisectorial Tandil | `aliados/multisectorial-tandil/` | `multisectorial-tandil-logo.jpg` | JPG con fondo blanco, baja resolución | Logo subido; falta guía |
-| Sociedad Rural de Tandil | `aliados/sociedad-rural/` | `sociedad-rural-logo.jpg` | JPG con fondo blanco | Logo subido; falta guía |
-| Acuerdo del Bicentenario | `aliados/acuerdo-del-bicentenario/` | `acuerdo-del-bicentenario.jpg` | JPG con fondo blanco | Logo subido; falta guía |
-| Banco de Alimentos Tandil (BAT) | `aliados/banco-de-alimentos/` | `banco-de-alimentos-color.png` (fondo blanco) | Blanco (fondo oscuro, transparente): `banco-de-alimentos-blanco.png` | Logos subidos; falta guía |
-| Expotan | `aliados/expotan/` | `expotan-logo.png` | Logo con fondo azul propio, baja resolución | Logo subido; falta guía |
-| Enfoque de Negocios | `aliados/enfoque-de-negocios/` | `enfoque-de-negocios-logo.jpg` | Versión "10 años", JPG con fondo blanco | Logo subido; falta guía |
-| Banco Provincia | `aliados/banco-provincia/` | `banco-provincia-logo.jpg` | Baja resolución (225 px): solo pantalla | Logo subido; falta guía |
-| Cuenta DNI | `aliados/cuenta-dni/` | `cuenta-dni-logo.png` | Baja resolución (322 px): solo pantalla | Logo subido; falta guía |
-| Federada Cobertura Médica | `aliados/federada/` | `federada-logo.png` | | Logo subido; falta guía |
-| Cagnoli (Genuino de Tandil) | `aliados/cagnoli/` | `cagnoli-fondo-oscuro.png` | Versión con letras blancas: **solo se ve sobre fondo oscuro**. Falta la versión para fondo claro (`cagnoli-color.png`) | Logo subido; falta guía |
-| Petrotandil | `aliados/petrotandil/` | `petrotandil-logo.png` | | Logo subido; falta guía |
-| Usina Tandil | `aliados/usina-tandil/` | `usina-tandil-logo.png` | Baja resolución (310 px): solo pantalla | Logo subido; falta guía |
+| FCE — Facultad de Ciencias Económicas (UNICEN) | `aliados/fce/` | `fce-horizontal-azul.png` | Blanco: `fce-horizontal-blanco.png`. También: `fce-isotipo-azul.png` / `fce-isotipo-blanco.png`, y las piezas `fce-futuro-*`, `fce-invita-*`, `fce-transforma-*` (color y blanco) | Logos subidos; guía **oficial** completa según su Manual de Marca (falta versión vertical y negra) |
+| UNICEN — Universidad Nacional del Centro de la Provincia de Buenos Aires | `aliados/unicen/` | `unicen-logo.png` | Un solo color (azul oscuro); no hay versión blanca | Logo subido; guía descriptiva (sin manual de la Universidad) |
+| Municipio de Tandil | `aliados/municipio-tandil/` | `municipio-tandil-color.png` (**es negro**, a pesar del nombre) | Blanco (para fondos oscuros): `municipio-tandil-blanco.gif`. No hay versión a color | Logos subidos; guía descriptiva |
+| CAME — Confederación Argentina de la Mediana Empresa | `aliados/came/` | `came-logo.png` | Un solo color (azul) | Logo subido; guía descriptiva |
+| CACS — Cámara Argentina de Comercio y Servicios | `aliados/cacs/` | `cacs-logo.jpg` | JPG con fondo blanco | Logo subido; guía descriptiva |
+| FEBA — Federación Económica de la Provincia de Buenos Aires | `aliados/feba/` | `feba-logo.png` | Un solo color (azul). El PNG tiene mucho espacio vacío alrededor del logo (conviene recortarlo). Fuente vectorial (`feba-logo.ai`) pendiente | Logo subido; guía descriptiva |
+| APYMET — Asociación de la Pequeña y Mediana Empresa de Tandil | `aliados/apymet/` | `apymet-sello-azul.png` (sello azul, con fondo azul) | `apymet-sello-negro.jpg` (sello en negro sobre fondo blanco) | Logos subidos; guía descriptiva |
+| Clúster Tecnológico de Tandil | `aliados/cluster-tecnologico-tandil/` | `cluster-tecnologico-tandil-negro.png` (fondo claro) | Blanco (fondo oscuro): `cluster-tecnologico-tandil-blanco.png`. Baja resolución (300 px): solo pantalla | Logos subidos; guía descriptiva |
+| Multisectorial Tandil | `aliados/multisectorial-tandil/` | `multisectorial-tandil-logo.jpg` | JPG con fondo blanco, baja resolución | Logo subido; guía descriptiva |
+| Sociedad Rural de Tandil | `aliados/sociedad-rural/` | `sociedad-rural-logo.jpg` | JPG con fondo blanco | Logo subido; guía descriptiva |
+| Acuerdo del Bicentenario | `aliados/acuerdo-del-bicentenario/` | `acuerdo-del-bicentenario.jpg` | JPG con fondo blanco; versión con las fechas 1823–2023 | Logo subido; guía descriptiva |
+| Banco de Alimentos Tandil (BAT) | `aliados/banco-de-alimentos/` | `banco-de-alimentos-color.png` (fondo blanco) | Blanco (fondo oscuro, transparente): `banco-de-alimentos-blanco.png` | Logos subidos; guía descriptiva |
+| Expotan | `aliados/expotan/` | `expotan-logo.png` | Logo con fondo azul propio, baja resolución | Logo subido; guía descriptiva |
+| Enfoque de Negocios | `aliados/enfoque-de-negocios/` | `enfoque-de-negocios-logo.jpg` | Versión "10 años", JPG con fondo blanco | Logo subido; guía descriptiva |
+| Banco Provincia | `aliados/banco-provincia/` | `banco-provincia-logo.jpg` | Solo el símbolo (sin el nombre). Baja resolución (225 px): solo pantalla | Logo subido; guía descriptiva |
+| Cuenta DNI | `aliados/cuenta-dni/` | `cuenta-dni-logo.png` | Baja resolución (322 px): solo pantalla | Logo subido; guía descriptiva |
+| Federada Cobertura Médica | `aliados/federada/` | `federada-logo.png` | | Logo subido; guía descriptiva |
+| Cagnoli (Genuino de Tandil) | `aliados/cagnoli/` | `cagnoli-fondo-oscuro.png` | Versión con letras blancas: **solo se ve sobre fondo oscuro**. Falta la versión para fondo claro (`cagnoli-color.png`) | Logo subido; guía descriptiva |
+| Petrotandil | `aliados/petrotandil/` | `petrotandil-logo.png` | Un solo color (negro) | Logo subido; guía descriptiva |
+| Usina Tandil | `aliados/usina-tandil/` | `usina-tandil-logo.png` | Baja resolución (310 px): solo pantalla | Logo subido; guía descriptiva |
 
 **Convención sugerida al combinar con aliados** (es una propuesta de la Cámara, a validar; los manuales de los aliados no la contradicen pero tampoco la definen)
 - El logo de la CET va primero (a la izquierda o arriba), salvo que la institución organizadora indique otro orden.

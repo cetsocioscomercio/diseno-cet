@@ -8,7 +8,7 @@
 
 | Archivo | Qué es | Medidas | Fondo | Usar para |
 |---|---|---|---|---|
-| `petrotandil-logo.png` | Isotipo (letra "P" con una "T") a la izquierda y "PETROTANDIL" en mayúsculas, todo en negro | 1182 × 332 px | Transparente | Fondo blanco o claro |
+| `petrotandil-logo.png` | Isotipo negro a la izquierda y "PETROTANDIL" en mayúsculas, todo en negro | 1182 × 332 px | Transparente | Fondo blanco o claro |
 
 ## Colores medidos en el logo
 

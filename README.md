@@ -16,12 +16,12 @@ README.md                      ← esta guía
 logos/
   cet/                         ← logos de la Cámara (todas las variantes)
 aliados/                       ← una carpeta por institución, siempre con el nombre corto en minúscula
-  fce/                         ← Facultad de Ciencias Económicas: guia.md + logos
+  fce/                         ← Facultad de Ciencias Económicas: guia.md OFICIAL + logos
   unicen/                      ← Universidad Nacional del Centro
   municipio-tandil/            ← Municipio de Tandil
   came/                        ← Confederación Argentina de la Mediana Empresa
   cacs/                        ← Cámara Argentina de Comercio y Servicios
-  feba/                        ← Federación Empresaria de la Provincia de Buenos Aires
+  feba/                        ← Federación Económica de la Provincia de Buenos Aires
   apymet/                      ← Asociación de la Pequeña y Mediana Empresa de Tandil
   cluster-tecnologico-tandil/  ← Clúster Tecnológico de Tandil
   multisectorial-tandil/       ← Multisectorial Tandil
@@ -38,7 +38,7 @@ aliados/                       ← una carpeta por institución, siempre con el 
   usina-tandil/                ← Usina Tandil
 ```
 
-Las carpetas y los logos ya están cargados. Las tablas de abajo sirven para saber cómo se llama cada archivo, reponer uno o reemplazarlo por una versión mejor.
+Las carpetas y los logos ya están cargados. Cada carpeta tiene su `guia.md`. **Solo la de la FCE es una guía oficial** (sale de su Manual de Marca). Las demás son fichas descriptivas hechas por la Cámara a partir de los archivos de logo (qué versión es cada uno, medidas, fondo, colores medidos): no reemplazan al manual de cada institución. Las tablas de abajo sirven para saber cómo se llama cada archivo, reponer uno o reemplazarlo por una versión mejor.
 
 ## Cómo subir o reemplazar un logo (sin saber programar)
 
@@ -46,7 +46,7 @@ Las carpetas y los logos ya están cargados. Las tablas de abajo sirven para sab
 2. Tocá **Add file → Upload files** y arrastrá el archivo (se pueden arrastrar varios juntos, o carpetas enteras: GitHub respeta la estructura). Si subís un archivo con el mismo nombre que otro que ya está, lo reemplaza.
 3. **Antes de subirlo, controlá el nombre**: minúscula, con guiones, sin espacios, sin paréntesis y sin tildes.
 4. Abajo, en **Commit changes**, escribí un mensaje corto (ej.: "Agrego logo de CAME") y confirmá.
-5. Si es un logo nuevo que no está en la tabla de `DESIGN.md`, sumá una fila (botón del lápiz → editar → **Commit changes**).
+5. Si es un logo nuevo que no está en la tabla de `DESIGN.md`, sumá una fila (botón del lápiz → editar → **Commit changes**) y actualizá la `guia.md` de esa carpeta.
 
 ## Mapa de nombres: carpeta de Drive → carpeta del repo
 
@@ -98,7 +98,7 @@ Los logos de la FCE están en `aliados/fce/`, junto con su guía.
 
 1. Creá una carpeta con su nombre corto en minúscula dentro de `aliados/` (ej.: `aliados/nueva-institucion/`). En GitHub: **Add file → Create new file**, escribí `aliados/nueva-institucion/guia.md` en el nombre y confirmá.
 2. Subile sus logos a esa carpeta (**Add file → Upload files**), con nombres como `nueva-institucion-logo.png`. El nombre del archivo empieza igual que el de la carpeta.
-3. En `guia.md` anotá sus colores, tipografía y reglas de uso, tomadas de su manual de marca. Si no hay manual, dejar escrito que no se definió.
+3. En `guia.md` anotá sus colores, tipografía y reglas de uso, tomadas de su manual de marca. Si no hay manual, describí los logos como en las demás carpetas y dejá escrito que no es una guía oficial.
 4. Sumá o actualizá su fila en la tabla de la sección 4 de `DESIGN.md`.
 
 ## Formatos recomendados
